@@ -1,9 +1,8 @@
 export default function ConditionalComp() {
-  const display=false;
+  const display=true;
   if(display){
     return <>I got display {display}</>;
   }else{
-    return <>I got display {display</>;
+    return <>I didnt get display {display}</>;
   }
-  
 }
