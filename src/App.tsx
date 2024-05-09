@@ -6,6 +6,7 @@ import Message from "./components/Message";
 import Counter from './components/Counter'
 import Form from './components//Form'
 import TodoBase from './components/Todo/Todobase';
+import FoodBase from './Food-Reciepe/Foodbase';
 import './App.css'
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <Fruits/> */}
       {/* <Message /> */}
       {/* <Counter /> */}
-      <TodoBase />
+      {/* <TodoBase /> */}
+      <FoodBase/>
     </>
   );
 }
