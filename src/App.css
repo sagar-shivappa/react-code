@@ -4,15 +4,34 @@ body{
 }
 .food-card{
     width: 300px;
-    height: 300px;
+    height: auto;
     overflow: hidden;
     border-radius: 5px;
     margin: 20px;
-    height: 100%;
+
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .food-flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.food-header{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.food-body img{
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.app-header{
+    color: white;
+    background-color: rgb(255, 162, 0);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
 }

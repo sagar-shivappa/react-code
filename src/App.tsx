@@ -1,16 +1,17 @@
-import Greet from "./components/Greet";
-import ConditionalComp from "./components/ConditionalComp";
-import Fruits from "./components/Fruits";
-import React from "react";
-import Message from "./components/Message";
-import Counter from './components/Counter'
-import Form from './components//Form'
-import TodoBase from './components/Todo/Todobase';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import FoodBase from './Food-Reciepe/Foodbase';
 import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-  // const [count, setCount] = useState(0);
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<FoodBase />}>
+
+      </Route>
+    </Routes>
+  </BrowserRouter>
 
   return (
     <>
